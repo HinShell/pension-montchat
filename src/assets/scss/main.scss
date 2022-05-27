@@ -1,0 +1,36 @@
+$primary_color: #fffee8;
+$secondary_color: #ff00ff;
+
+html {
+    background-color: $primary_color;
+}
+
+.button {
+    background-color: transparent;
+}
+
+.button:hover {
+    border-color: $secondary_color;
+    color: $secondary_color;
+}
+
+.footer {
+    background-color: transparent;
+    padding-bottom: 0.5em;
+}
+
+#fll {
+    position: relative;
+}
+#fll img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+a {
+    color: #4a4a4a;
+}
+a:hover{
+    color: $secondary_color;
+}
